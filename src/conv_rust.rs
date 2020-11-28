@@ -20,6 +20,8 @@ fn translate_typ(typ: &str) -> &str {
         "ID" => "ID",
         "Date" => "Date<Utc>",
         "BigInt" => "i64",
+        "UInt8" => "u8",
+        "UInt16" => "u16",
         _ => typ,
     }
 }
